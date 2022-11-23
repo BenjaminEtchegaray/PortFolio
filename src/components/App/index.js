@@ -9,7 +9,8 @@ function App() {
   return (
     <div className="app">
       <NavBar />
-      <h1>Benjamin Etchegaray </h1>
+      <h1 className="app_firstname">Benjamin Etchegaray </h1>
+      <h2 className="app_jobName">Développeur web Front-End </h2>
     </div>
   );
 }

@@ -1,0 +1,18 @@
+.navbar {
+  background-color: rgb(216, 215, 215);
+  border-radius: 5px;
+  text-align: center;
+
+  &_menu{
+    padding: 0.5em;
+  }
+
+  &_item{
+    margin: 0.5em;
+    border-radius: 4px;
+  }
+}
+
+a:hover {
+  background-color: white;
+}

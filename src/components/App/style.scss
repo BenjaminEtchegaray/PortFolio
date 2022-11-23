@@ -1,7 +1,20 @@
 .app {
-  width: 500px;
+  width: auto;
   margin: 1em auto;
-  text-align: center;
+  height: 100%;
+
+
+  &_firstname {
+    font-size: 5.5em ;
+    text-align: start;
+    margin-top: 4em;
+  }
+
+  &_jobName {
+    font-size: 2.5em ;
+    text-align: start;
+    margin-top: 1.5em;
+  }
 }
 
 .app img {

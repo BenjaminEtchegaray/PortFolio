@@ -1,16 +1,19 @@
 // == Import
 import './style.scss';
+import { Routes, Route } from 'react-router-dom';
 
 // == Import Composants
 import NavBar from 'src/components/NavBar';
+import Home from 'src/components/Home';
 
 // == Composant
 function App() {
   return (
     <div className="app">
       <NavBar />
-      <h1 className="app_firstname">Benjamin Etchegaray </h1>
-      <h2 className="app_jobName">Développeur web Front-End </h2>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
     </div>
   );
 }

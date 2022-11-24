@@ -2,14 +2,22 @@
   background-color: rgb(216, 215, 215);
   border-radius: 5px;
   text-align: center;
+  height: 3em;
+  width: 100%;
+  margin: auto;
 
   &_menu{
     padding: 0.5em;
+    height: 100%;
+    display: flex;
+
   }
 
   &_item{
-    margin: 0.5em;
+    margin: auto;
     border-radius: 4px;
+    font-size: 25px;
+   
   }
 }
 

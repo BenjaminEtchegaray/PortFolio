@@ -1,8 +1,10 @@
+@use 'src/styles/vars';
+
 .navbar {
   background-color: rgb(216, 215, 215);
   border-radius: 5px;
   text-align: center;
-  height: 3em;
+  height: vars.$navbar-height;
   width: 100%;
   margin: auto;
 
@@ -15,15 +17,14 @@
 
   &_item{
     margin: auto;
-    border-radius: 4px;
-    font-size: 25px;
+    border-radius: 100%;
+    font-size: 1.3em;
+    padding: 0.5em;
    
     &--selected{
       
-        font-size: 1.1rem;
-        font-weight: 300;
-        background-color: chartreuse;
-      
+        font-size: 1.45em;
+        text-decoration: underline;
     }
   }
 }

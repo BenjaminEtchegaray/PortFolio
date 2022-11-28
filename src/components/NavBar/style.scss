@@ -18,6 +18,13 @@
     border-radius: 4px;
     font-size: 25px;
    
+    &--selected{
+      
+        font-size: 1.1rem;
+        font-weight: 300;
+        background-color: chartreuse;
+      
+    }
   }
 }
 

@@ -1894,6 +1894,11 @@ chrome-trace-event@^1.0.2:
   resolved "https://registry.yarnpkg.com/chrome-trace-event/-/chrome-trace-event-1.0.3.tgz#1015eced4741e15d06664a957dbbf50d041e26ac"
   integrity sha512-p3KULyQg4S7NIHixdwbGX+nFHkoBiA4YQmyWtjb8XngSKV124nJmRysgAeujbUVb15vh+RvFUfCPqU7rXk+hZg==
 
+classnames@^2.2.5:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.2.tgz#351d813bf0137fcc6a76a16b88208d2560a0d924"
+  integrity sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==
+
 clean-css@^5.2.2:
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-5.3.0.tgz#ad3d8238d5f3549e83d5f87205189494bc7cbb59"
@@ -2064,6 +2069,11 @@ core-js-pure@^3.20.2:
   version "3.22.3"
   resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.22.3.tgz#181d1b6321fb29fe99c16a1f28beb840ab84ad36"
   integrity sha512-oN88zz7nmKROMy8GOjs+LN+0LedIvbMdnB5XsTlhcOg1WGARt9l0LFg0zohdoFmCsEZ1h2ZbSQ6azj3M+vhzwQ==
+
+core-js@^3.1.3:
+  version "3.26.1"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.26.1.tgz#7a9816dabd9ee846c1c0fe0e8fcad68f3709134e"
+  integrity sha512-21491RRQVzUn0GGM9Z1Jrpr6PNPxPi+Za8OM9q4tksTSnlbXXGKK1nXNg/QvwFYettXvSX6zWKCtHHfjN4puyA==
 
 core-js@^3.21.0, core-js@^3.22.2:
   version "3.22.3"
@@ -2863,6 +2873,14 @@ faye-websocket@^0.11.3:
   integrity sha512-CzbClwlXAuiRQAlUyfqPgvPoNKTckTPGfwZV4ZdAhVcP2lh9KUxJg2b5GkE7XbjKQ3YJnQ9z6D9ntLAlB+tP8g==
   dependencies:
     websocket-driver ">=0.5.1"
+
+feather-icons@^4.29.0:
+  version "4.29.0"
+  resolved "https://registry.yarnpkg.com/feather-icons/-/feather-icons-4.29.0.tgz#4e40e3cbb7bf359ffbbf700edbebdde4e4a74ab6"
+  integrity sha512-Y7VqN9FYb8KdaSF0qD1081HCkm0v4Eq/fpfQYQnubpqi0hXx14k+gF9iqtRys1SIcTEi97xDi/fmsPFZ8xo0GQ==
+  dependencies:
+    classnames "^2.2.5"
+    core-js "^3.1.3"
 
 file-entry-cache@^6.0.1:
   version "6.0.1"
@@ -4702,7 +4720,7 @@ process-nextick-args@~2.0.0:
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.1.tgz#7820d9b16120cc55ca9ae7792680ae7dba6d7fe2"
   integrity sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==
 
-prop-types@^15.8.1:
+prop-types@^15.7.2, prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -4776,6 +4794,13 @@ react-dom@^17.0.2:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     scheduler "^0.20.2"
+
+react-feather@^2.0.10:
+  version "2.0.10"
+  resolved "https://registry.yarnpkg.com/react-feather/-/react-feather-2.0.10.tgz#0e9abf05a66754f7b7bb71757ac4da7fb6be3b68"
+  integrity sha512-BLhukwJ+Z92Nmdcs+EMw6dy1Z/VLiJTzEQACDUEnWMClhYnFykJCGWQx+NmwP/qQHGX/5CzQ+TGi8ofg2+HzVQ==
+  dependencies:
+    prop-types "^15.7.2"
 
 react-is@^16.13.1:
   version "16.13.1"

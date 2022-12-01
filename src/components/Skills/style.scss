@@ -3,4 +3,20 @@
 .skills{
   background-color: black;
   height: vars.$skills-height;
+  color: white;
+  padding: 6em;
+
+
+
+  &_list{
+    height: 35%;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size: 1.5em;
+
+    &_title {
+      padding-top: 1em;
+    }
+  }
 }

@@ -2,22 +2,22 @@
 export const routeNavHeader = [
   {
     route: '/',
-    name: 'Accueil',
+    name: 'Home',
     id: 1,
   },
   {
     route: 'competences',
-    name: 'Compétences',
+    name: 'Skills',
     id: 2,
   },
   {
     route: 'projets',
-    name: 'Projets',
+    name: 'Projects',
     id: 3,
   },
   {
     route: 'contact',
-    name: 'Contacts',
+    name: 'Contact',
     id: 4,
   },
 ];

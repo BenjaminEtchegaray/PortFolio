@@ -1,7 +1,7 @@
 import './style.scss';
 
 const Projects = () => (
-  <div className="project">
+  <div className="projects">
     <h1>Mes projets </h1>
   </div>
 );

@@ -10,7 +10,7 @@ export const skillsList = [
         id: 1,
         name: 'HTML',
         icon: <img src="https://img.icons8.com/fluency/48/null/html-5.png" alt="html icon" />,
-        progress: 75,
+        progress: 65,
         color: '#ff9633',
 
       },
@@ -50,7 +50,7 @@ export const skillsList = [
         id: 1,
         name: 'REACT.JS',
         icon: <img src="https://img.icons8.com/office/40/null/react.png" alt="react icon" />,
-        progress: 60,
+        progress: 75,
         color: '#87CEFA',
       },
     ],

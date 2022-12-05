@@ -10,10 +10,44 @@
     align-items:center;
     justify-content: space-evenly;
     height: 100%;
-    font-size: 2em;
+    font-size: 3em;
     color: white;
+    padding-bottom: 0.5em;
     a:hover {
-      text-decoration: underline;
+      font-size: 1.3em;
+    }
+    img{
+      vertical-align:middle;
+    }
+
+    &_git{
+      display: flex;
+      flex-wrap: wrap;
+      align-items:center;
+
+      &_name{
+        padding-right: 0.5em;
+      }
+    }
+
+    &_email{
+      display: flex;
+      flex-wrap: wrap;
+      align-items:center;
+
+      &_name{
+        padding-right: 0.5em;
+      }
+    }
+
+    &_linkedin{
+      display: flex;
+      flex-wrap: wrap;
+      align-items:center;
+
+      &_name{
+        padding-right: 0.5em;
+      }
     }
 }
 }

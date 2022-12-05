@@ -1,4 +1,6 @@
 @use 'src/styles/vars';
+@use "sass:map";
+
 
 .skills{
   
@@ -31,6 +33,34 @@
       &_item{
         padding-bottom: 1em;
       }
+
+      &__progressbarWrapper{
+        border-radius: vars.$radius;
+        background-color: vars.$color-light;
+        
+        &_progressbar{ 
+            
+          height: 1rem;
+          border-radius: vars.$radius;
+          text-align: right;
+          // centrage verticale /!\ dépend de la hauteur
+          padding: 0.2rem;
+          font-size: 0.8rem;
+          animation-duration: 3s;
+          animation-name: slidein; 
+          
+          @keyframes slidein {
+          from {
+            margin-right: 100%;
+            width: 0%;
+          }
+        
+          to {
+            margin-right: 0%;
+            width: 50%;
+          }
+        }}
+      }
     }
 
     &_frameworks{
@@ -51,8 +81,52 @@
         padding-bottom: 1em;
         font-size: 1.3em;
       }
+
+      &__progressbarWrapper{
+        border-radius: vars.$radius;
+        background-color: vars.$color-light;
+        
+        &_progressbar{ 
+
+          height: 1rem;
+          border-radius: vars.$radius;
+          text-align: right;
+          // centrage verticale /!\ dépend de la hauteur
+          padding: 0.2rem;
+          font-size: 0.8rem;
+          animation-duration: 3s;
+          animation-name: slidein; 
+          
+          @keyframes slidein {
+          from {
+            margin-right: 100%;
+            width: 0%;
+          }
+        
+          to {
+            margin-right: 0%;
+            width: 75%;
+          }
+        }}
+      }
     }
 
  
+  }
+
+  .progressbarWrapper{
+    border-radius: vars.$radius;
+    background-color: vars.$color-light;
+  
+    &_progressbar{
+      height: 1rem;
+      border-radius: vars.$radius;
+      text-align: right;
+      // centrage verticale /!\ dépend de la hauteur
+      padding: 0.2rem;
+      font-size: 0.8rem;
+      animation-duration: 3s;
+      animation-name: slidein;
+    }
   }
 }

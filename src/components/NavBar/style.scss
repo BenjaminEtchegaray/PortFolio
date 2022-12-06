@@ -1,8 +1,7 @@
 @use 'src/styles/vars';
 
 .navbar {
-  background-color: rgb(216, 215, 215);
-  border-radius: 5px;
+  background-color: rgb(156, 156, 156);
   text-align: center;
   height: vars.$navbar-height;
   width: 100%;
@@ -21,7 +20,7 @@
 
   &_item{
     margin: auto;
-    border-radius: 45%;
+    border-radius: 50%;
     padding: 0.7em;
     font-size: 1.2em;
   

@@ -5,7 +5,6 @@ import { useEffect, useState } from 'react';
 import './style.scss';
 
 const ProgressLine = ({
-  label,
   backgroundColor = "#e5e5e5",
   // expected format for visual parts
   visualParts = [
@@ -34,8 +33,7 @@ const ProgressLine = ({
   }, [visualParts]);
 
   return (
-    <>
-      <div className="progressLabel">{label}</div>
+    <div>
       <div
         className="progressVisualFull"
         // to change the background color dynamically
@@ -62,7 +60,7 @@ const ProgressLine = ({
             />
           ))}
       </div>
-    </>
+    </div>
   );
 };
 

@@ -1,5 +1,4 @@
 @use 'src/styles/vars';
-@use "sass:map";
 
 
 .skills{
@@ -7,7 +6,7 @@
   background-color: black;
   height: vars.$skills-height;
   color: white;
-  padding: 4em;
+  padding: 3.5em;
 
   &_list{
     
@@ -19,47 +18,19 @@
       justify-content: space-evenly;
       font-weight: bold;
       font-size: 1.5em;
-      margin: 1em;
+      margin: 0.7em;
       img{
         vertical-align:middle;
       }
 
       &_title {
-        padding-bottom: 1em;
+        padding-bottom: 0.5em;
         font-size: 1.3em;
-
       }
 
-      &_item{
-        padding-bottom: 1em;
-      }
-
-      &__progressbarWrapper{
-        border-radius: vars.$radius;
-        background-color: vars.$color-light;
-        
-        &_progressbar{ 
-            
-          height: 1rem;
-          border-radius: vars.$radius;
-          text-align: right;
-          // centrage verticale /!\ dépend de la hauteur
-          padding: 0.2rem;
-          font-size: 0.8rem;
-          animation-duration: 3s;
-          animation-name: slidein; 
-          
-          @keyframes slidein {
-          from {
-            margin-right: 100%;
-            width: 0%;
-          }
-        
-          to {
-            margin-right: 0%;
-            width: 50%;
-          }
-        }}
+      &_pourcentage{
+        font-size: 1rem;
+        margin-left: 97%;
       }
     }
 
@@ -71,7 +42,7 @@
       justify-content: space-evenly;
       font-weight: bold;
       font-size: 1.5em;
-      margin: 1em;
+      margin: 0.7em;
       img{
         vertical-align:middle;
       }
@@ -82,51 +53,11 @@
         font-size: 1.3em;
       }
 
-      &__progressbarWrapper{
-        border-radius: vars.$radius;
-        background-color: vars.$color-light;
-        
-        &_progressbar{ 
-
-          height: 1rem;
-          border-radius: vars.$radius;
-          text-align: right;
-          // centrage verticale /!\ dépend de la hauteur
-          padding: 0.2rem;
-          font-size: 0.8rem;
-          animation-duration: 3s;
-          animation-name: slidein; 
-          
-          @keyframes slidein {
-          from {
-            margin-right: 100%;
-            width: 0%;
-          }
-        
-          to {
-            margin-right: 0%;
-            width: 75%;
-          }
-        }}
+      &_pourcentage{
+        font-size: 1rem;
+        margin-left: 97%;
       }
-    }
-
- 
-  }
-
-  .progressbarWrapper{
-    border-radius: vars.$radius;
-    background-color: vars.$color-light;
-  
-    &_progressbar{
-      height: 1rem;
-      border-radius: vars.$radius;
-      text-align: right;
-      // centrage verticale /!\ dépend de la hauteur
-      padding: 0.2rem;
-      font-size: 0.8rem;
-      animation-duration: 3s;
-      animation-name: slidein;
     }
   }
 }
+

@@ -1,19 +1,23 @@
+@use 'src/styles/vars';
+
 .progressVisualFull {
   display: flex;
   /* change the value if you want different thickness */
-  height: 6px;
-  margin: 20px 0;
+  height: 20px;
+  margin: 5px 0;
+  border-radius: vars.$radius;
+  font-size: 0.8rem;
+  text-align: right;
+  box-sizing: content-box;
 }
 
 .progressVisualPart {
   /* Number of the seconds for complete animation */
-  transition: width 2s;
+  transition: width 3s;
+  border-radius: vars.$radius;
 }
 
-
-body {
-  margin: 20px;
-  padding: 20px;
-  border: 1px solid #e5e5e5;
-  border-radius: 6px;
+.pourcentage{
+  padding: 25px 0 0 5px;
 }
+
